@@ -1,0 +1,19 @@
+#form1{
+    width: 60%;
+    padding: 30px;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.hi{
+    white-space: nowrap;
+}
+#summary{
+    display: inline-grid;
+    grid-template-columns: 150px 100px;
+    column-gap: 30px;
+
+}
+#gig{
+     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    padding-top: 30px
+}

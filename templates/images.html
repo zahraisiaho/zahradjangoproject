@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>images</title>
+    {% load static %}
+    <style>
+        .div1{
+            display: flex;
+        }
+        .div2{
+            padding-right: 5px;
+        }
+        .div3{
+            padding-left: 5px;
+        }
+
+    </style>
+
+</head>
+<body>
+<div class="div1">
+    <div class="div2">
+    <img src="{% static 'images/img2.jpeg' %}" alt="" width="800px" height="800px">
+    </div>
+    <div class="div3">
+    <img src="{% static 'images/img3.jpeg' %}" alt="" width="800px" height="800px">
+    </div>
+</div>
+</body>
+</html>

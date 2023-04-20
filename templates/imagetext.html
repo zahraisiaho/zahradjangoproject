@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spring</title>
+    {% load static %}
+    <style>
+        .cont1{
+            background-color: black;
+            padding-top: 2px;
+            padding-bottom: 7px;
+        }
+        .cont2{
+            display: flex;
+            margin-top: 70px;
+        }
+    </style>
+</head>
+<body>
+<div class="cont1">
+    <p style="text-align: center; color: white; font-size: 20px">How to have image and text side by side</p>
+</div>
+
+<div class="cont2">
+    <img src="{% static 'images/spring.jpeg' %}" alt="" width="700px" height="400px">
+    <p style="font-size: 50px"><b>Spring is the season when life's alive in everything.</b></p>
+</div>
+
+</body>
+</html>

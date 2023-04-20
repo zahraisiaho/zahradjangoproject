@@ -1,0 +1,10 @@
+h1{
+    margin-top: 300px;
+    font-size: 100px;
+    text-align: center;
+}
+body{
+    background-image: url("/static/images/img1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
